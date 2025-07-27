@@ -12,7 +12,7 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send(f"Hello {ctx.author.mention},how are you?!") #hello , how are you
 @bot.command()
-async def add(ctx,*nums:float): 
+async def add(ctx,*nums:float):  #*nums allows us to gather a pointer holding let's say n variables 
     num=0
     for i in nums:
         num=num+i
