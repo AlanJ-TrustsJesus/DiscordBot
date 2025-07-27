@@ -1,6 +1,6 @@
 # DiscordBot
 Making a discord Bot 
-The project is aimed at making a discord bot that shows a premier league score board , or any sports board but for now its very basic
+The project is aimed at making a discord bot that is fun
 The bot currently is able to reply to certain words like hi and stuff 
 It also performs basic arithmetics like add and sub
 Be sure to install discord.py and flask using pip , pip3 if mac 
